@@ -1,0 +1,26 @@
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Achat.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Articles.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.BonLivraison.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Connexion_Serveur.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Détail_Bon_Livraison.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Etat_Vente.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.EtatAchatArticle.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.EtatVenteArticle.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.FRM_.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Fournisseur.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.FRM_BACKUP.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.FRM_RESTORE.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.FRM_IMP.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Login.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Properties.Resources.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Reglement.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.Stock.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion_Stock_fruits.FRM_VENTE.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion Stock fruits.csproj.GenerateResource.Cache
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\bin\Debug\Gestion Stock fruits.exe.config
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\bin\Debug\Gestion Stock fruits.exe
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\bin\Debug\Gestion Stock fruits.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion Stock fruits.exe
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion Stock fruits.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\bin\Debug\MySql.Data.dll
+C:\Users\Admin\documents\visual studio 2010\Projects\Gestion Stock fruits\Gestion Stock fruits\obj\x86\Debug\Gestion Stock fruits.csprojResolveAssemblyReference.cache

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7489508-DBD6-4FF4-ADAD-6F9ACABD5193}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gestion_Stock_fruits</RootNamespace>
+    <AssemblyName>Gestion Stock fruits</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Gestion_Stock_fruits.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\Downloads\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Achat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat.Designer.cs">
+      <DependentUpon>Achat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="app.cs" />
+    <Compile Include="Articles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Articles.Designer.cs">
+      <DependentUpon>Articles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BonLivraison.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BonLivraison.Designer.cs">
+      <DependentUpon>BonLivraison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Connexion Serveur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connexion Serveur.Designer.cs">
+      <DependentUpon>Connexion Serveur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Détail Bon Livraison.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Détail Bon Livraison.Designer.cs">
+      <DependentUpon>Détail Bon Livraison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat Vente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etat Vente.Designer.cs">
+      <DependentUpon>Etat Vente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EtatAchatArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtatAchatArticle.Designer.cs">
+      <DependentUpon>EtatAchatArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EtatVenteArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtatVenteArticle.Designer.cs">
+      <DependentUpon>EtatVenteArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fournisseur.Designer.cs">
+      <DependentUpon>Fournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_BACKUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_BACKUP.Designer.cs">
+      <DependentUpon>FRM_BACKUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RESTORE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RESTORE.Designer.cs">
+      <DependentUpon>FRM_RESTORE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="Imprimer Bon De Livraison N °.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Imprimer Bon De Livraison N °.Designer.cs">
+      <DependentUpon>Imprimer Bon De Livraison N °.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reglement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reglement.Designer.cs">
+      <DependentUpon>Reglement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vente.Designer.cs">
+      <DependentUpon>Vente.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Achat.resx">
+      <DependentUpon>Achat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Articles.resx">
+      <DependentUpon>Articles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BonLivraison.resx">
+      <DependentUpon>BonLivraison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connexion Serveur.resx">
+      <DependentUpon>Connexion Serveur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Détail Bon Livraison.resx">
+      <DependentUpon>Détail Bon Livraison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat Vente.resx">
+      <DependentUpon>Etat Vente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtatAchatArticle.resx">
+      <DependentUpon>EtatAchatArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtatVenteArticle.resx">
+      <DependentUpon>EtatVenteArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fournisseur.resx">
+      <DependentUpon>Fournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_BACKUP.resx">
+      <DependentUpon>FRM_BACKUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RESTORE.resx">
+      <DependentUpon>FRM_RESTORE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imprimer Bon De Livraison N °.resx">
+      <DependentUpon>Imprimer Bon De Livraison N °.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reglement.resx">
+      <DependentUpon>Reglement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vente.resx">
+      <DependentUpon>Vente.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
